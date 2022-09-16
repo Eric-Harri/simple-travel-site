@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-size: 12px;
+}
+
+.header {
+    background-color: rgb(247, 36, 36);
+    text-align: center;
+    padding: 0.5em;
+}
+
+.nav-bar {
+    overflow: hidden;
+    background-color: black;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+.nav-bar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 2px solid black;
+  float: left;
+  width: 250px;  
+}
+
+div.gallery:hover {
+    border: 2px solid rgb(247, 36, 36);
+}
+
+div.gallery img {
+    width: 100%;
+    height: 12em;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+footer {
+    background-color: rgb(247, 36, 36);
+    padding: .1em;
+    font-size: .75em;
+    padding-left: 1em;
+}
+main {
+   margin: .75em;
+}
+
+
+footer section {
+    
+}
+
+
+
+
+footer table {
+
+}
